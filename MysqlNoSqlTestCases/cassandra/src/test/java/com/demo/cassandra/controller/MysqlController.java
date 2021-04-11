@@ -70,13 +70,13 @@ public class MysqlController {
 
     }
 
-    /*@Test
+    @Test
     @Order(4)
     public void deletePerson() throws Exception {
         mockMvc.perform(MockMvcRequestBuilders.delete("/person/delete/1").contentType(MediaType.APPLICATION_JSON))
                 .andExpect(MockMvcResultMatchers.status().isOk());
 
-    }*/
+    }
 
     public static String asJsonString(final Object obj) {
         try {
